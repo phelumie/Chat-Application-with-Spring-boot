@@ -1,0 +1,22 @@
+<div class="loginBox">
+  <img class="user" src="https://i.ibb.co/yVGxFPR/2.png" height="100px" width="100px">
+  <h3>Sign in here</h3>
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <div>
+      <label for="username">Username:</label>
+      <input type="text" id="username" formControlName="username">
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" formControlName="password">
+    </div>
+    <div *ngIf="errorMessage" class="alert alert-danger">
+      {{errorMessage}}
+    </div>
+    <button type="submit">Login</button>
+  </form>
+  <a href="#">Forget Password<br> </a>
+  <div class="text-center">
+    <p style="color: #59238F;">Sign-Up</p>
+  </div>
+</div>

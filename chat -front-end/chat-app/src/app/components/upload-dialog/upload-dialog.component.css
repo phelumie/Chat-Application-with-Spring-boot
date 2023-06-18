@@ -1,0 +1,31 @@
+/* styles.scss */
+/* Add custom styles for the image container */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+  }
+  
+  /* Add custom styles for the uploaded image */
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Add custom styles for the message input */
+  .message-input {
+    width: 100%;
+    margin-top: 16px;
+  }
+  
+  /* Add custom styles for the dialog actions */
+  .mat-dialog-actions {
+    justify-content: flex-end;
+  }
+  
+  /* Add custom styles for the buttons in the dialog actions */
+  .mat-dialog-actions button {
+    margin-left: 8px;
+  }
+  

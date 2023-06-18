@@ -1,0 +1,24 @@
+/* chat-request.component.css */
+
+.dialog-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.dialog-message {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.accept-button {
+  margin-right: 10px;
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+.deny-button {
+  background-color: #f44336; /* Red */
+  color: white;
+}
